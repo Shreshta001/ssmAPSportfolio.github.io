@@ -1,20 +1,26 @@
-<h1 style="font-size: 60px; font-weight: 900; color: #00BFFF; text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+<h1 style="font-size: 60px; font-weight: 900; 
+           background: linear-gradient(135deg, #C0C0C0, #1E90FF); 
+           -webkit-background-clip: text; 
+           -webkit-text-fill-color: transparent; 
+           text-shadow: 1px 1px 2px #999, 2px 2px 4px rgba(0,0,0,0.3); 
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
   🚀 DevQuest
 </h1>
 
 
-> *Driven to **Elevate **Visions through a **Q*uest of innovation, creation, and exploration.
+
+> *Driven to **E**levate **V**isions through a **Quest** of innovation, creation, and exploration.
 
 ---
 ## 🧾 Portfolio Details
 
-*👩‍🎓 Student*        : Shreshta S. Majalikar (SSM) <br/>
-*🎓 SRN*             : 01fe22bcs277 <br/>
-*🔰 Course Name*     : Algorithmic Problem Solving <br/>
-*🆔 Course Code*     : 24ECSE309 <br/>
-*👨‍🏫 Instructor*     : Prakash Hegade (PH) <br/>
-*🌐 Domain*          : Google <br/>
-*🏛 University*      : KLE Technological University, Hubballi <br/>
+**👩‍🎓 Student**       : *Shreshta S. Majalikar (SSM)* <br/>
+**🎓 SRN**           : *01fe22bcs277* <br/>
+**🔰 Course Name**   : *Algorithmic Problem Solving* <br/>
+**🆔 Course Code**   : *24ECSE309* <br/>
+**👨‍🏫 Instructor**    : *Prakash Hegade (PH)* <br/>
+**🌐 Domain**        : *Google* <br/>
+**🏛 University**     : *KLE Technological University, Hubballi* <br/>
 
 ---
 
@@ -79,28 +85,28 @@
 
 ### 🌐 *Why Google?*
 
-Google stands tall as a *beacon of digital evolution* — from smart searches to seamless maps, robust cloud platforms to tools that power classrooms worldwide.  
+Google stands tall as a **beacon of digital evolution** — from smart searches to seamless maps, robust cloud platforms to tools that power classrooms worldwide.  
 Billions depend on Google daily...  
 And what powers this massive ecosystem? 🤯  
-*Brilliant algorithms working silently behind the scenes* — and that's exactly where DevQuest dives in. 🎯
+**Brilliant algorithms working silently behind the scenes** — and that's exactly where DevQuest dives in. 🎯
 
 ---
 
 ## 🚀 Google’s Universe of Services  
 > (A curated, condensed, and clean list of Google’s major offerings — for your README.md 🔥)
 
-| 🌍 *Category*             | 🚀 *Top Services*                                                                 |
+| 🌍 **Category**             | 🚀 **Top Services**                                                                 |
 |----------------------------|--------------------------------------------------------------------------------------|
-| 🔍 *Search & Discovery*   | Google Search, Maps, Translate, News, Lens                                           |
-| 📧 *Communication*        | Gmail, Google Meet, Chat, Calendar, Voice                                            |
-| 📂 *Productivity Tools*   | Drive, Docs, Sheets, Slides, Forms, Keep, Jamboard                                   |
-| 🎬 *Media & Entertainment| YouTube, YouTube Music, Google TV, Podcasts, Stadia *(shut down but notable)        |
-| 💳 *Payments*             | Google Pay, Wallet, Shopping, Google Store                                           |
-| ☁ *Cloud & AI*           | Google Cloud (GCP), Gemini (Bard), Assistant, TensorFlow                             |
-| 🧠 *Developer Tools*      | Firebase, Android Studio, Google Domains, Chrome DevTools                            |
-| 📱 *Mobile & OS*          | Android, Wear OS, Chrome OS, Google Pixel Apps                                       |
-| 🎓 *Education*            | Classroom, Google Scholar, Assignments                                               |
-| 🧪 *Experiments / Labs*   | Google Arts & Culture, Google Earth, Experiments with Google                         |
+| 🔍 **Search & Discovery**   | Google Search, Maps, Translate, News, Lens                                           |
+| 📧 **Communication**        | Gmail, Google Meet, Chat, Calendar, Voice                                            |
+| 📂 **Productivity Tools**   | Drive, Docs, Sheets, Slides, Forms, Keep, Jamboard                                   |
+| 🎬 **Media & Entertainment**| YouTube, YouTube Music, Google TV, Podcasts, Stadia *(shut down but notable)        |
+| 💳 **Payments**             | Google Pay, Wallet, Shopping, Google Store                                           |
+| ☁ **Cloud & AI**          | Google Cloud (GCP), Gemini (Bard), Assistant, TensorFlow                             |
+| 🧠 **Developer Tools**      | Firebase, Android Studio, Google Domains, Chrome DevTools                            |
+| 📱 **Mobile & OS**          | Android, Wear OS, Chrome OS, Google Pixel Apps                                       |
+| 🎓 **Education**            | Classroom, Google Scholar, Assignments                                               |
+| 🧪 **Experiments / Labs**   | Google Arts & Culture, Google Earth, Experiments with Google                         |
 
 ---
 
@@ -157,21 +163,21 @@ These case studies demonstrate how Google leverages *Data Structures and Algorit
 
 ## 1. 📺 YouTube Video Load Optimization Using Caching and LRU
 
-*Context:*  
+**Context:**  
 YouTube faced high latency during video buffering, especially in areas with poor internet.
 
-*Solution:*  
+**Solution:**  
 Implemented *Least Recently Used (LRU)* caching at edge servers to store frequently accessed video chunks closer to users.
 
-*Algorithm Applied:*  
+**Algorithm Applied:**  
 - *LRU Cache:* Doubly linked list + HashMap → O(1) access and eviction
 
-*Benefits:*  
+**Benefits:**  
 - Faster video start times  
 - Reduced buffering  
 - Lower backbone traffic
 
-*Complexity:*  
+**Complexity:**  
 - *Time:* O(1) for get/put  
 - *Space:* O(capacity)
 
@@ -179,21 +185,21 @@ Implemented *Least Recently Used (LRU)* caching at edge servers to store frequen
 
 ## 2. 🖼 Google Photos Duplicate Image Detection Using Hashing & Union-Find
 
-*Context:*  
+**Context:**  
 Needed efficient detection and management of duplicate uploads across user albums.
 
-*Solution:*  
+**Solution:**  
 Used *Perceptual Hashing* and *Union-Find* to cluster similar images.
 
-*Algorithms Applied:*  
+**Algorithms Applied:**  
 - *Hashing:* Quick image signatures  
 - *Union-Find (Disjoint Set):* Grouping similar images
 
-*Benefits:*  
+**Benefits:**  
 - Reduced storage  
 - Better search performance
 
-*Complexity:*  
+**Complexity:**  
 - *Hashing:* O(1) avg  
 - *Union-Find:* Nearly O(1) with path compression
 
@@ -201,21 +207,21 @@ Used *Perceptual Hashing* and *Union-Find* to cluster similar images.
 
 ## 3. 🔍 Google Ads Keyword Matching Using Trie & Backtracking
 
-*Context:*  
+**Context:**  
 Efficiently match billions of queries with advertiser keywords including wildcard support.
 
-*Solution:*  
+**Solution:**  
 Used *Trie* for prefix matching + *Backtracking* for wildcard support.
 
-*Algorithms Applied:*  
+**Algorithms Applied:**  
 - *Trie:* Fast prefix storage and lookup  
 - *Backtracking:* Explore partial/wildcard matches
 
-*Benefits:*  
+**Benefits:**  
 - Accurate keyword targeting  
 - Higher click-through rates
 
-*Complexity:*  
+**Complexity:**  
 - *Trie:* O(L) where L = keyword length  
 - *Backtracking:* Optimized with pruning
 
@@ -223,41 +229,41 @@ Used *Trie* for prefix matching + *Backtracking* for wildcard support.
 
 ## 4. 🎥 Google Meet Video Quality Control Using Dynamic Programming
 
-*Context:*  
+**Context:**  
 Maintain good video quality during varying network conditions.
 
-*Solution:*  
+**Solution:**  
 Used *Dynamic Programming* (similar to *Knapsack Problem*) to choose optimal video resolution under bandwidth constraints.
 
-*Algorithm Applied:*  
+**Algorithm Applied:**  
 - *DP Optimization:* Choose best bitrate/resolution combination
 
-*Benefits:*  
+**Benefits:**  
 - Stable video on poor connections  
 - Smart bandwidth use
 
-*Complexity:*  
+**Complexity:**  
 - *Time:* O(nW), where n = levels, W = bandwidth
 
 ---
 
 ## 5. 🔠 Google Search Autocorrect Using Edit Distance & Trie
 
-*Context:*  
+**Context:**  
 Fix misspelled queries and suggest the right search terms in real-time.
 
-*Solution:*  
+**Solution:**  
 Used *Edit Distance (Levenshtein)* and *Trie* for spelling correction and suggestions.
 
-*Algorithms Applied:*  
+**Algorithms Applied:**  
 - *Edit Distance:* Minimum edit transformation  
 - *Trie:* Efficient word suggestions from dictionary
 
-*Benefits:*  
+**Benefits:**  
 - Accurate autocorrect  
 - Improved search UX
 
-*Complexity:*  
+**Complexity:**  
 - *Edit Distance:* O(mn), where m and n are word lengths  
 - *Trie:* O(L) where L = word length
 
