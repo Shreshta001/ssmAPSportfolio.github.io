@@ -1,4 +1,4 @@
-<h1 style="font-size: 60px; font-weight: 900; color: #4CAF50; text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+<h1 style="font-size: 60px; font-weight: 900; color: #00BFFF; text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
   🚀 DevQuest
 </h1>
 
